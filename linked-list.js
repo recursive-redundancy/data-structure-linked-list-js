@@ -17,16 +17,13 @@ class LinkedList {
      * Create new LinkedList instance.
      * @param {...number|...string|null} - value(s) of new linked list
      */
-    constructor(...varArg) {
+    constructor(value, ...varValues) {
         this.next = null;
-        this.value = null;
+        this.value = value;
 
-        if (varArg == null) return;
-
-        this.value = varArg[0];
-        for (let i = 1, end = varArg.length; i < end; i++) {
-            this.add(varArg[i]);
-        }
+        varValues.forEach((val) => {
+            this.add(val);
+        });
     }
 
     /**
