@@ -51,7 +51,7 @@ class LinkedList {
     }
 
     /**
-     * Search if list contains a specific item
+     * Search list for a specific item
      * @param  {number, string} value The value of the new item being added
      * @param  {Object, null} node - A reference to the current node (item)
      * in recursive loop. If null, node is set as calling node
