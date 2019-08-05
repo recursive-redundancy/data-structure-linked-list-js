@@ -72,3 +72,5 @@ class LinkedList {
         return false;
     }
 }
+
+module.exports = LinkedList;
