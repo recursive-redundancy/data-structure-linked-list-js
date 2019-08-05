@@ -10,7 +10,7 @@
   * node within a LinkedList. These cumulative nodes 
   * represent a LinkedList, with the first 
   * node in the list being the head - this 
-  * head node is representative of an entire LinkedList.
+  * head node is representative of the entire LinkedList.
   */
 class LinkedList {
     /**
@@ -29,7 +29,7 @@ class LinkedList {
     /**
      * Add a new item into the linked list. Item is inserted at the end of the list.
      * @param  {number, string} value - The value of the new item being added
-     * @param  {Object, null} node - A reference to the current node (item)
+     * @param  {Object, null} node - Current node (item)
      * in recursive loop. If null, node is set as calling node
      * @return {void} Does not return a value
      */
@@ -50,7 +50,7 @@ class LinkedList {
     /**
      * Search list for a specific item
      * @param  {number, string} value The value of the new item being added
-     * @param  {Object, null} node - A reference to the current node (item)
+     * @param  {Object, null} node - Current node (item)
      * in recursive loop. If null, node is set as calling node
      * @return {boolean} True if item found, False if not found
      */
